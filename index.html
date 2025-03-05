@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="jquery.css">
+    
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('imagem/fotoFundo.png');
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
+            background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+            background-position: center; /* Centraliza a imagem no container */
+        }
+    </style>
+
+    <div class="container">
+        <header
+            <h1>Lista de tarefas</h1>
+        </header>
+        
+        <div class="form-tarefas">
+            <form action="">
+                <input type="text" id="tarefa" placeholder="Digite a tarefa"/>
+                <button type="submit" id="botao-cadastrar">Cadastrar</button>
+            </form>
+            
+        </div>
+        <ul id="lista"></ul>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
